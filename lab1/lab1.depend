@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1731418235 source:c:\users\aluno\documents\001\lab1\main.cpp
+	<iostream>
+
+1731420026 source:c:\users\aluno\documents\001\lab1\dominios.cpp
+	"dominios.hpp"
+
+1731419971 c:\users\aluno\documents\001\lab1\dominios.hpp
+
