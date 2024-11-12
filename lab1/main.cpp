@@ -1,9 +1,12 @@
 #include <iostream>
 #include "dominios.hpp"
+#include "entidades.hpp"
 
 using namespace std;
 
 //adaptar pra cada classe
+
+
 
 int main(){
     //std::cout << "Hello world!" << std::endl; ->> sem using namespace std
@@ -36,5 +39,14 @@ int main(){
         cout << "Valor = " << ptr->getValor() << endl;
     else
         cout << "Valor invalido" << endl;
+
+    // adicionarndo entidades
+    cout << "Adicionando entidades" << endl;
+
+    Entidade entidade;
+    //Dominio dominio;
+    dominio.setValor(VALOR_VALIDO);
+    entidade.setNomeAtributo(dominio);
+    cout << entidade.getNomeAtributo().getValor();
     return 0;
 }
